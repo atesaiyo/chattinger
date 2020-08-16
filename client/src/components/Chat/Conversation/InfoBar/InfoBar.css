@@ -1,0 +1,59 @@
+#info-bar {
+  padding: 10px;
+  height: 50px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  position: relative;
+}
+#setting {
+  display: flex;
+  justify-content: flex-end;
+}
+.chat-info {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  line-height: 36px;
+  margin-right: 10px;
+  text-align: center;
+}
+.current-style {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 36px;
+  margin-right: 10px;
+  text-align: center;
+}
+.current-style:hover {
+  opacity: 0.7;
+}
+#select-style {
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 20px rgb(75, 75, 75);
+  position: absolute;
+  right: 50px;
+  bottom: -155px;
+  background-color: white;
+  z-index: 2;
+}
+.style-outer {
+  margin-top: 10px;
+}
+.style-inner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 44px;
+  text-align: center;
+}
+.style-inner:hover {
+  opacity: 0.7;
+  border: 1px solid rgb(65, 65, 65);
+}
+
+#info-bar img:hover {
+  opacity: 0.7;
+}

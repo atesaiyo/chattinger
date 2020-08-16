@@ -1,0 +1,7 @@
+#conversation {
+  min-width: 600px;
+  min-height: inherit;
+  height: inherit;
+  background-color: azure;
+  position: relative;
+}

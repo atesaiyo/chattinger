@@ -1,0 +1,46 @@
+.center-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-full {
+  display: flex;
+  justify-content: center;
+}
+.center-row {
+  display: flex;
+  align-items: center;
+}
+.center-col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.fl-left {
+  float: left;
+}
+.fl-right {
+  float: right;
+}
+
+.image-auto {
+  width: auto;
+  max-width: inherit;
+  height: auto;
+  max-height: inherit;
+}

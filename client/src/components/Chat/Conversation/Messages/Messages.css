@@ -1,0 +1,98 @@
+#messages {
+  height: 94%;
+  padding: 10px;
+  position: relative;
+}
+.avatar-other {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.message {
+  min-height: 40px;
+  max-width: 60%;
+  padding: 9px 15px 6px 15px;
+  margin-top: 1px;
+}
+.notice-message {
+  font-size: 80%;
+  background-color: inherit;
+}
+.image-message-outer {
+  margin-top: 1px;
+  max-width: 400px;
+  max-height: 250px;
+}
+.image-message-inner {
+  border-radius: 20px;
+}
+
+.combo {
+  margin-top: 20px;
+}
+.other {
+  margin-left: 50px;
+  background-color: rgb(214, 214, 214);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.other-image {
+  margin-left: 50px;
+}
+.other-top {
+  border-top-left-radius: 20px;
+}
+.other-one {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.other-bottom {
+  border-bottom-left-radius: 20px;
+}
+.user-pos {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.user {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.user-top {
+  border-top-right-radius: 20px;
+}
+.user-one {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.user-bottom {
+  border-bottom-right-radius: 20px;
+}
+.date {
+  padding: 9px 10px 6px 10px;
+}
+
+.messages-scroll {
+  height: inherit;
+  overflow-y: scroll;
+}
+.messages-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: inherit;
+  border-radius: 5px;
+  background-color: rgb(180, 198, 255);
+}
+.messages-scroll::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: rgb(180, 198, 255);
+}
+
+.messages-scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #5c59ff;
+}
